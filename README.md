@@ -6,3 +6,5 @@ Fans can also learn more about the members by clicking on the panel associated w
 If fans click on the panel associated with I.L, they're brought to her member's page. General facts and information about I.L is listed on the right side of the screen. On the left side underneath her profile picture, fans would be able to click to other panels to see her history as an artist, a gallery page, and more of her solo projects. The history tab is a dropdown menu that allows you choose which era of history the fan would like to learn more about the artist.
 
 Additionally, there's a fun interaction where you hover over the images that shares the representative symbols of each member. Text appears that tells the user what specific color, tarot card, and prism stone I.L possess as a part of the group.
+
+GitHub Account: https://github.com/jourdannf
