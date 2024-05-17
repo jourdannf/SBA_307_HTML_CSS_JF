@@ -1,0 +1,85 @@
+body {
+    font-family: "Red Hat Display", sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+.nav-item > .nav-link{
+    color: black;
+}
+
+.navbar > a.nav-link{
+    padding-right: 10px;
+}
+
+.navbar {
+    margin-bottom: 10px;
+    padding: 5px 15px;
+    background-color: beige;
+    color: white;
+    background-color: #2e294e;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: #b07bac;
+}
+
+.nav-link:hover {
+    color: #b07bac;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.blurb {
+    margin-bottom: 30px;
+}
+
+#group-image {
+    margin-bottom: 30px;
+}
+
+#members-panel {
+    margin-bottom: 30px;
+    padding: 10px;
+
+}
+
+.btn {
+    background-color: #2e294e;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #b07bac;
+}
+
+#members-panel>a{
+    text-decoration: none;
+    background-color: white;
+}
+
+#members-panel>a:hover {
+    background-color: #b07bac;
+    color: white;
+}
+
+
+.table-primary {
+    background-color: #d4f1fb;
+}
+
+.artist-gif {
+    margin-bottom: 30px;
+}

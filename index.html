@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRRIS Fanpage</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .member {
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+        }
+
+        #il {
+            background-color: blue;
+        }
+
+        #liv {
+            background-color: orangered;
+        }
+
+        #ys {
+            background-color: pink;
+        }
+
+        #nina {
+            background-color: green;
+        }
+
+        h2 {
+            background-color: #3f7cac;
+            color: #d4f1fb;
+            padding: 15px 0px;
+            border-radius: 5px 5px 0px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-xxl min-vh-100">
+        <div class="row"> <!-- Nav Bar-->
+            <div class="col">
+                <nav class="navbar">
+                    <a href="#" class="navbar-brand">
+                        <img src="./Images/IRRIS_group_logo.jpg" alt="Logo for K-pop girl group IRRIS"
+                            class="img-fluid rounded" style="width: 40px;"> IRRIS FANBASE
+                    </a>
+                    <a href="#" class="nav-link">
+                        About
+                    </a>
+                    <a href="#" class="nav-link">
+                        Brief History
+                    </a>
+                    <a href="#discography" class="nav-link">
+                        Discography
+                    </a>
+                    <a href="./login.html" class="nav-link" style="margin-left: auto;">
+                        Log In
+                    </a>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Group Photo-->
+        <div class="row" id="group-image">
+            <img style="height: 675px; width: 100%; margin:auto;" src="./Images/IRRIS_Bye_Bye_concept_photo.jpg"
+                alt="Group photo of the K-pop girl group IRRIS" class="img-fluid object-fit-cover">
+        </div>
+
+        <div class="row"> <!-- Breif blurb about IRRIS-->
+            <div class="col blurb">
+                IRRIS lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus repellendus, quae omnis minus
+                cumque doloremque nam velit unde est nobis eum deserunt inventore voluptate, porro in? Tenetur sunt ex
+                sequi aspernatur quos incidunt repellat porro consequatur rem neque nostrum, nihil distinctio voluptate
+                eveniet sit eum iusto tempore voluptates natus non ducimus, earum vero accusantium iste. Facere
+                laboriosam qui adipisci deleniti in eligendi modi, harum ipsa. Eaque id exercitationem, eveniet
+                quibusdam quos nam accusantium architecto esse. Optio placeat sapiente at suscipit iure eum consequatur!
+                Nulla assumenda officia odio, eum necessitatibus delectus quod accusantium, et a consequatur
+                exercitationem repellendus magni sequi libero eius optio recusandae est aut quasi suscipit dolore neque!
+            </div>
+
+            <div class="row text-center" style="margin: auto"> <!-- Clickable Gallery for the Members-->
+                <h2 class="col-12">Members</h2>
+                <div class="card-group" id="members-panel">
+                    <a href="./members.html" class="card col-3">
+                        <img src="./Images/IRRIS_I.L_profile_photo.jpg" alt="Picture of K-pop idol I.L"
+                            class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">I.L</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="card col-3 text-center">
+                        <img src="./Images/IRRIS_Liv_profile_photo.jpg" alt="Picture of K-pop idol Liv"
+                            class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Liv</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card col-3 text-center">
+                        <img src="./Images/IRRIS_Yunseul_profile_photo.jpg" alt="Picture of K-pop idol Yunseul"
+                            class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Yunseul</p>
+                        </div>
+                    </a>
+                    <a href="#" class="card col-3 text-center">
+                        <img src="./Images/IRRIS_Nina_reveal_photo.jpg" alt="Picture of K-pop idol Nina"
+                            class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Nina</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+             <!-- Discography Table -->
+            <div class="row" style="margin: auto;">
+                <h2 class="text-center">Discography</h2>
+                <table class="table table-bordered" id="discography">
+                    <thead class="text-center">
+                        <tr class="table-primary">
+                            <th></th>
+                            <th>WANNA KNOW</th>
+                            <th>Stay W!th Me</th>
+                            <th>Dessert</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Music Video</th>
+                            <td class="text-center"><a href="#"><img style="height:200px;"
+                                        src="./Images/WANNA_KNOW_Thumbnail.jpg"
+                                        alt="WANNA KNOW Music Video Thumbnail"></a>
+                            </td>
+                            <td class="text-center"><a href="#"><img style="height: 200px;"
+                                        src="./Images/Stay_W!th_Me_Thumbnail.jpg"
+                                        alt="Stay With Me Music Video Thumbnail"></a></td>
+                            <td class="text-center"><a href="#"><img style="height: 200px;"
+                                        src="./Images/Dessert_Thumbnail.jpg" alt="Dessert Music VIdeo Thumbnail"></a>
+                            </td>
+                        </tr>
+                        <tr class="table-primary">
+                            <th>Release Date</th>
+                            <td class="text-center">07.07.22</td>
+                            <td class="text-center">11.24.22</td>
+                            <td class="text-center">11.30.22</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <th>Members</th>
+                            <td class="text-center">
+                                <div class="member" id="il"></div>
+                                <div class="member" id="liv"></div>
+                                <div class="member" id="ys"></div>
+                                <div class="member" id="nina"></div>
+
+                            </td>
+                            <td class="text-center">
+                                <div class="member" id="il"></div>
+                                <div class="member" id="liv"></div>
+                                <div class="member" id="ys"></div>
+                                <div class="member" id="nina"></div>
+                            </td>
+                            <td class="text-center">
+                                <div class="member" id="liv"></div>
+                                <div class="member" id="ys"></div>
+                            </td>
+                        </tr>
+                        <tr class="table-primary">
+                            <th>Streaming</th>
+                            <td class="text-center">
+                                <svg style="width: 20px; height: auto; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8zm100.7 364.9c-4.2 0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9 1-9 2.6-11.9 2.6-9.7 0-15.8-7.7-15.8-15.8 0-10.3 6.1-15.2 13.6-16.8 81.9-18.1 165.6-16.5 237 26.2 6.1 3.9 9.7 7.4 9.7 16.5s-7.1 15.4-15.2 15.4zm26.9-65.6c-5.2 0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8 1.3-7.4 2.6-11.9 2.6-10.7 0-19.4-8.7-19.4-19.4s5.2-17.8 15.5-20.7c27.8-7.8 56.2-13.6 97.8-13.6 64.9 0 127.6 16.1 177 45.5 8.1 4.8 11.3 11 11.3 19.7-.1 10.8-8.5 19.5-19.4 19.5zm31-76.2c-5.2 0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6 1-8.1 2.6-12.9 2.6-13.2 0-23.3-10.3-23.3-23.6 0-13.6 8.4-21.3 17.4-23.9 35.2-10.3 74.6-15.2 117.5-15.2 73 0 149.5 15.2 205.4 47.8 7.8 4.5 12.9 10.7 12.9 22.6 0 13.6-11 23.3-23.2 23.3z"/></svg>
+
+                                <svg style="width: 20px; height: auto;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M451.5 244.7H576V172H451.5zm0-173.9v72.7H576V70.8zm0 275.1H576V273.2H451.5zM0 447.1H124.5V374.4H0zm150.5 0H275V374.4H150.5zm150.5 0H425.5V374.4H301zm150.5 0H576V374.4H451.5zM301 345.9H425.5V273.2H301zm-150.5 0H275V273.2H150.5zm0-101.2H275V172H150.5z"/></svg>
+                            
+                            </td>
+                            <td class="text-center">
+                                <svg style="width: 20px; height: auto; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8zm100.7 364.9c-4.2 0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9 1-9 2.6-11.9 2.6-9.7 0-15.8-7.7-15.8-15.8 0-10.3 6.1-15.2 13.6-16.8 81.9-18.1 165.6-16.5 237 26.2 6.1 3.9 9.7 7.4 9.7 16.5s-7.1 15.4-15.2 15.4zm26.9-65.6c-5.2 0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8 1.3-7.4 2.6-11.9 2.6-10.7 0-19.4-8.7-19.4-19.4s5.2-17.8 15.5-20.7c27.8-7.8 56.2-13.6 97.8-13.6 64.9 0 127.6 16.1 177 45.5 8.1 4.8 11.3 11 11.3 19.7-.1 10.8-8.5 19.5-19.4 19.5zm31-76.2c-5.2 0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6 1-8.1 2.6-12.9 2.6-13.2 0-23.3-10.3-23.3-23.6 0-13.6 8.4-21.3 17.4-23.9 35.2-10.3 74.6-15.2 117.5-15.2 73 0 149.5 15.2 205.4 47.8 7.8 4.5 12.9 10.7 12.9 22.6 0 13.6-11 23.3-23.2 23.3z"/></svg>
+
+                                <svg style="width: 20px; height: auto;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M451.5 244.7H576V172H451.5zm0-173.9v72.7H576V70.8zm0 275.1H576V273.2H451.5zM0 447.1H124.5V374.4H0zm150.5 0H275V374.4H150.5zm150.5 0H425.5V374.4H301zm150.5 0H576V374.4H451.5zM301 345.9H425.5V273.2H301zm-150.5 0H275V273.2H150.5zm0-101.2H275V172H150.5z"/></svg>
+                            </td>
+                            <td class="text-center">
+                                <svg style="width: 20px; height: auto; margin-right: 5px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8zm100.7 364.9c-4.2 0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9 1-9 2.6-11.9 2.6-9.7 0-15.8-7.7-15.8-15.8 0-10.3 6.1-15.2 13.6-16.8 81.9-18.1 165.6-16.5 237 26.2 6.1 3.9 9.7 7.4 9.7 16.5s-7.1 15.4-15.2 15.4zm26.9-65.6c-5.2 0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8 1.3-7.4 2.6-11.9 2.6-10.7 0-19.4-8.7-19.4-19.4s5.2-17.8 15.5-20.7c27.8-7.8 56.2-13.6 97.8-13.6 64.9 0 127.6 16.1 177 45.5 8.1 4.8 11.3 11 11.3 19.7-.1 10.8-8.5 19.5-19.4 19.5zm31-76.2c-5.2 0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6 1-8.1 2.6-12.9 2.6-13.2 0-23.3-10.3-23.3-23.6 0-13.6 8.4-21.3 17.4-23.9 35.2-10.3 74.6-15.2 117.5-15.2 73 0 149.5 15.2 205.4 47.8 7.8 4.5 12.9 10.7 12.9 22.6 0 13.6-11 23.3-23.2 23.3z"/></svg>
+
+                                <svg style="width: 20px; height: auto;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M451.5 244.7H576V172H451.5zm0-173.9v72.7H576V70.8zm0 275.1H576V273.2H451.5zM0 447.1H124.5V374.4H0zm150.5 0H275V374.4H150.5zm150.5 0H425.5V374.4H301zm150.5 0H576V374.4H451.5zM301 345.9H425.5V273.2H301zm-150.5 0H275V273.2H150.5zm0-101.2H275V172H150.5z"/></svg>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Key for Discography Table-->
+            <div>
+                <table class="table table-bordered" style="width: 50%; margin: auto;">
+                    <thead>
+                        <tr class="text-center">
+                            <th >Member's name</th>
+                            <th >Color</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="text-center">
+                            <td>I.L</td>
+                            <td>
+                                <div class="member" id="il"></div>
+                            </td>
+                        </tr>
+                        <tr class="text-center">
+                            <td>Liv</td>
+                            <td>
+                                <div class="member" id="liv"></div>
+                            </td>
+                        </tr>
+                        <tr class="text-center">
+                            <td>Yunseul</td>
+                            <td>
+                                <div class="member" id="ys"></div>
+                            </td>
+                        </tr>
+                        <tr class="text-center">
+                            <td>Nina</td>
+                            <td>
+                                <div class="member" id="nina"></div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+</body>
+
+</html>
